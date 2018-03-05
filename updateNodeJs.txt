@@ -1,0 +1,6 @@
+http://www.hostingadvice.com/how-to/update-node-js-latest-version/
+
+sh
+npm cache clean -f
+npm install -g n latest
+n stable
