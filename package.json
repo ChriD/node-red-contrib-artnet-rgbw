@@ -17,5 +17,9 @@
         "nodes": {
             "node-artnet-rgbw": "src/node-artnet-rgbw.js"
         }
+    },
+    "devDependencies": {
+        "eslint": "^4.18.2",
+        "eslint-config-google": "^0.9.1"
     }
 }
