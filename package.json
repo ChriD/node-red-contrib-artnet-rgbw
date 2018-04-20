@@ -1,8 +1,8 @@
 {
-    "name": "node-red-contrib-artnet-rgbw",
-    "version": "0.0.2",
-    "description": "A node to create valid input for the node-red-node-artnet node for RGBW LED Stribes  ",
-    "main": "node-artnet-rgbw.js",
+    "name": "node-red-contrib-artnet-device",
+    "version": "0.0.3",
+    "description": "A node to create valid input for the node-red-node-artnet node for RGBW LED Stripes or Lamps",
+    "main": "node-artnet-device.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -15,7 +15,7 @@
     ],
     "node-red": {
         "nodes": {
-            "node-artnet-rgbw": "src/node-artnet-rgbw.js"
+            "node-artnet-rgbw": "src/node-artnet-device.js"
         }
     },
     "devDependencies": {
